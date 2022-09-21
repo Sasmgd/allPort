@@ -1,0 +1,335 @@
+body {
+    background-color: #F2F5F8;
+}
+
+.headertop {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #F1F2F6;
+    background-color: white;
+}
+
+.imge {
+    width: 20px;
+    height: 20px;
+    margin-top: 15px;
+}
+
+.lange {
+    border: none;
+    color: blue;
+
+}
+
+.account {
+    margin-top: 0.5%;
+    color: blue;
+    margin-right: 7%;
+}
+
+.account img {
+    width: 25px;
+    height: 25px;
+    margin-right: 10px;
+}
+
+header .divs {
+    margin-left: 7%;
+    display: flex;
+    justify-content: center;
+    width: 150px;
+}
+
+.navbar-nav {
+    justify-content: space-around;
+    margin: 0px;
+    width: 800px;
+}
+
+.collapse {
+    margin-left: 8%;
+}
+
+.collapse ul li a {
+    font-size: 16px;
+    color: blue;
+}
+
+.container-fluid {
+    margin-left: 39px;
+}
+
+.navbar-brand {
+    font-size: 31px;
+    font-weight: bold;
+    color: #27187F;
+}
+
+.navbar-brand span {
+    color: #758BFD;
+}
+
+.img {
+    border-radius: 7px;
+    right: 38px;
+    position: relative;
+    width: 40px;
+    height: 40px;
+    background-color: blueviolet;
+}
+
+.inputs {
+    transition: 5s;
+    width: 40px;
+    height: 40px;
+    background-color: #F2F5F8;
+    border: none;
+}
+
+.kls {
+    transition: 10s;
+    width: 200px;
+    height: 40px;
+    border: 1px solid;
+}
+
+.cardcarusel {
+    margin-left: 5%;
+    margin-top: 4%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.art {
+    display: flex;
+    justify-content: center;
+    border-radius: 15px;
+    width: 740px;
+    background-color: white;
+}
+
+.slaider {
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+}
+
+
+.box {
+    margin-top: 2.5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 705px;
+    height: 471px;
+    overflow: hidden;
+    padding-top: 10px;
+
+}
+
+.imgs {
+    display: flex;
+
+}
+
+.imgp {
+    margin-top: 16%;
+    width: 706px;
+    height: 230px;
+    object-fit: cover;
+    border-radius: 20px;
+}
+
+.btn {
+    font-size: 20px;
+    width: 100px;
+    height: 30px;
+    background-color: rgb(255, 72, 0);
+    color: white;
+}
+
+.divsl {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin-left: 4%;
+}
+
+.mrgvali {
+    width: 12px;
+    height: 12px;
+    border: 2px solid #8172D5;
+    border-radius: 50%;
+
+}
+
+.actives {
+    background-color: #8172D5;
+}
+
+.button {
+    padding-bottom: 10%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.btn_slaider {
+    margin-right: 4%;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 15px;
+
+}
+
+.back {
+    transform: rotate(180deg);
+
+}
+
+.next {
+    margin-bottom: 10px;
+}
+
+.btns2 {
+    border: none;
+    background-color: white;
+    font-size: 30px;
+    color: #27187F;
+}
+
+.imgo h2 {
+    font-weight: 400;
+    margin-top: 58px;
+    margin-left: 20px;
+}
+
+.imgo p {
+    color: #69A3A2;
+    margin-top: 58px;
+    margin-left: 20px;
+}
+
+.quick {
+    margin-right: 5%;
+}
+
+.cardcarusel .info {
+    width: 330px;
+    display: grid;
+    grid-template-columns: 45% 45%;
+    grid-column-gap: 20px;
+    background-color: white;
+    margin-top: 10%;
+    padding-bottom: 5%;
+    border-radius: 15px;
+}
+
+.infos {
+    height: 471px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    gap: 20px;
+
+}
+
+.infos div {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.cardel {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 23px;
+}
+
+.cards {
+    background-color: white;
+    width: 280px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-radius: 15px;
+}
+
+.companinews {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 4%;
+    margin-bottom: 1%;
+    margin-left: 6%;
+    margin-right: 6%;
+}
+
+.imgcard {
+    width: 250px;
+    margin-top: 15px;
+    margin-left: 15px;
+}
+
+.txts {
+    width: 250px;
+    font-size: 20px;
+    margin-left: 15px;
+    margin-top: 20px;
+}
+
+.time {
+    font-size: 12px;
+    color: #69A3A2;
+    margin-left: 15px;
+    margin-top: 50px;
+}
+
+.how {
+    margin-top: 6%;
+    margin-left: 6%;
+}
+
+.how h3 {
+    margin-left: 5%;
+    margin-bottom: 1%;
+}
+
+.infor {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 16px;
+    margin-right: 5%;
+}
+
+.askedcard {
+    padding: 0px 15px 0px 15px;
+    width: 536px;
+    height: 60px;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #8172D5;
+    border-radius: 10px;
+
+}
+
+.answr {
+    padding: 0px 15px 0px 15px;
+    width: 536px;
+    background-color: white;
+    color: #8172D5;
+    border-radius: 10px;
+    display: none;
+}
+
+.block {
+    display: block;
+}
+.usersection{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
