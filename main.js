@@ -35,7 +35,6 @@ imgs.addEventListener('click', function () {
 });
 // სლაიდერი
 let imge = document.querySelector('.imgs');
-console.log(img);
 let next = document.querySelector('.next');
 let back = document.querySelector('.back')
 let index = 1;
@@ -162,4 +161,49 @@ const observer = new IntersectionObserver(entries => {
     });
 });
 observer.observe(cardel);
+let btn1 = document.querySelector('.btn1');
+let usert = document.querySelector('.usert');
+let container = document.querySelector('.container');
+let btn = document.querySelector('.btn-primary')
+let registered = document.querySelector('.registered')
+let bols = false
+btn1.addEventListener('click', () => {
+    usert.classList.add('none');
+    container.classList.add('blocks');
+})
+btn.addEventListener('click', () => {
+    container.classList.remove('blocks');
+    registered.classList.add('blocks');
+})
+let imgleft = document.querySelector('.imgleft');
+let imgright = document.querySelector('.imgright');
+imgleft.addEventListener('mouseover', () => {
+    imgleft.classList.add('widthh')
+    imgright.classList.add('widths')
+})
+imgleft.addEventListener('mouseout', () => {
+    imgleft.classList.remove('widthh')
+    imgright.classList.remove('widths')
+})
+imgright.addEventListener('mouseover', () => {
+    imgright.classList.add('widthh')
+    imgleft.classList.add('widths')
+})
+imgright.addEventListener('mouseout', () => {
+    imgright.classList.remove('widthh')
+    imgleft.classList.remove('widths')
+});
+let imgm = document.querySelectorAll('.imgm')
+let cardem = document.querySelectorAll('.cardem');
+for (let i=0;i<imgm.length;i++) {
+    imgm[i].addEventListener('mouseover', () => {
+        cardem[i].classList.add('blo')
+    })
+    imgm[i].addEventListener('mouseout', () => {
+        cardem[i].classList.remove('blo')
+       
+    });
+}
+
+
 
